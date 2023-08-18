@@ -9,7 +9,7 @@ w.writerow(header)
 rows=[[1,'shivu','mumbai',7835657845],[2,'krishna','dwarka',9456745612],[3,'radhe','vrindavan',7465645345],[4,'omii','surat',5675548454],[5,'madhav','mathura',5464384545]]
 w.writerows(rows)
 l=[]
-for x in range(1):
+for x in range(5):
     j=int(input("Enter student id:"))
     i=input("Enter student name:")
     y=input("Enter city:")
